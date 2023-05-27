@@ -1,0 +1,815 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.hfeed.site {
+    overflow: hidden;
+}
+
+html{
+    scroll-behavior: smooth;;
+  }
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #2c2c32;
+    
+    
+}
+.container{
+    padding: 50px 84px;
+    position: relative;
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid dodgerblue;
+    z-index: 100000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    
+
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+   
+}
+span{
+    color: dodgerblue;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover {
+    color: dodgerblue;
+    transition: 0.5s;
+}
+.Intro{
+    height: 400px;
+    
+}
+.intro h2{
+    margin-top: 170px;
+    color: white;
+    font-size: 33px;
+    font-weight: 500;
+}
+.intro h1{
+    color: dodgerblue;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+.intro p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 200px;
+    
+}
+.intro img{
+    float: right;
+    position:absolute;
+    height: 90%;
+    width: 60%;
+    bottom: 0;
+    right: 0%;
+    transform: translateX(10px);
+    
+    
+}
+.about{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #191919;
+    height: 1200px;
+
+}
+.about-me{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-me img{
+    height:40%;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50PX;
+    margin-right: 100PX;
+    margin-left: 100PX;
+
+}
+.teks-aboutme{
+    width: 100%;
+   
+
+}
+.teks-aboutme h2{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: 1px solid dodgerblue;
+
+}
+.teks-aboutme p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.teks-aboutme h3{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    border-bottom: 1px solid dodgerblue;
+    
+}
+.hobby h2{
+    margin-top: 140px;
+    color:white;
+    font-size: 65px;
+    width: 100%;
+    margin-bottom: 55px;
+    text-align: center; 
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+
+.card1 {
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    background: url(servishp.jpeg);
+    background-size: 100%;
+    
+}
+.card1:hover {
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: url(servishpon.jpeg);
+    background-size: 100%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    transition: 0.5s;
+    background-size: 100%;
+    
+    
+}
+
+.card1:hover h5{
+    color: transparent;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 250px;
+    -webkit-text-stroke: 0px black;
+}
+.card1 h5{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 250px;
+    -webkit-text-stroke: 1px black;
+}
+.card2{
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    background: url(webdeveloper.jpeg);
+    background-size: 100%;
+}
+.card2:hover {
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: url(webdeveloperon.jpeg);
+    background-size: 100%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    transition: 0.5s;
+    
+    
+}
+.card2 h5{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-text-stroke: 1px black;
+}
+.card2:hover h5{
+    color: transparent;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-text-stroke: 0px black;
+}
+.card3{
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    background: url(teknisijaringan.jpeg);
+    background-size: 100%;
+}
+.card3:hover {
+    height: 300px;
+    width: 250px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: url(teknisijaringanon.jpeg);
+    background-size: 100%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 3px solid dodgerblue;
+    transition: 0.5s;
+    
+    
+}
+
+.card3 h5{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-text-stroke:1px black;
+}
+.card3:hover h5{
+    color: transparent;
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-text-stroke: 0px black;
+}
+.RiwayatPendidikan {
+    width: auto;
+    
+
+}
+.RiwayatPendidikan h3{
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    
+    
+}
+.RiwayatPendidikan ul li{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+   margin-bottom: 5px;
+   margin-left: 20px;
+   margin-top: 20px;
+    
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    background-color: #2c2c32;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+footer h2{
+    margin-top: 115px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+
+}
+footer p{
+    color: #fcfc;
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.sosmed {
+    position: absolute;
+    top: 50%;
+    transition: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+}
+.tombol {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-sizing: 0 5px 5px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: dodgerblue;
+}
+.tombol i {
+    transition: 0.2s linear;
+    font-size: 26px;
+    line-height: 90px;
+
+}
+.tombol:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+
+}
+.tombol::before{
+    content: "";
+    width: 120px;
+    height: 120px;
+    left: -110%;
+    top: 90%;
+    transform: rotate(45deg);
+    background: dodgerblue;
+    position: absolute;
+}
+.tombol:hover::before{
+    
+    left: -10%;
+    top: -10%;
+    animation: aaa 0.7s 1;
+}
+@media screen and (max-width: 600px) 
+{
+    .container{
+        padding: 10px 40px;
+        position: relative;
+        overflow: hidden;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        background-color: black;
+        border-bottom: 1px solid dodgerblue;
+        z-index: 100000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0px 50px;
+    }
+    .logo {
+        color: white;
+        font-size: 25px;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+    .Intro{
+        height: 400px;
+        width: 100%;
+        padding: 20px 100px;
+    }
+    .intro h2{
+        margin-top: 100px;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .intro h1{
+        color: dodgerblue;
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .intro p{
+        font-size: 20px;
+        color: white;
+        margin-bottom: 200px;
+        
+    }
+    .intro img{
+        float: right;
+        position: absolute;
+        height: auto;
+        width: 60%;
+        bottom: 0;
+        right: 0%;
+        transform: translateX(10px);
+    }
+    .about{
+        width: auto;
+         padding: 40px 0;
+        background-color: #191919;
+            height: auto;
+        
+    }
+    .about-me{
+         width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        }
+        .about-me img{
+        height: 40%;
+        width: 40%;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 10px;
+
+        
+        }
+        .teks-aboutme{
+        width: auto;
+           
+        
+        }
+        .teks-aboutme h2{
+        color: white;
+        font-size: 35px;
+        text-transform: capitalize;
+        margin-left: 5px;
+        border-bottom: 1px solid dodgerblue;
+        }
+        .teks-aboutme p{
+        color: white;
+        letter-spacing: normal;
+        line-height: 15px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: justify;
+        }
+        .teks-aboutme h3{
+            color: white;
+            font-size: 35px;
+            text-transform: capitalize;
+            margin-left: 20px;
+            border-bottom: 1px solid dodgerblue;
+            
+        }
+        .hobby{
+            height:50pxpx;
+        }
+
+
+        .hobby h2{
+            margin-top: 50px;
+            color:white;
+            font-size: 30px;
+            width: 100%;
+            margin-bottom: 0px;
+            text-align: center; 
+        }
+        .box {
+            display: flex;
+            justify-content:center;
+            align-items:normal;
+            min-height: 50px;
+            height: 100px
+        }
+        
+        
+        .card1 {
+            height: 100px;
+            width: 100px;
+            padding: 20px 35px;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid dodgerblue;
+            background: url(servishp.jpeg);
+            background-size: 100%;
+            
+        }
+        .card1:hover {
+            height: 100px;
+            width: 100px;
+            padding: 20px 35px;
+            border-radius: 10px;
+            background: url(servishpon.jpeg);
+            background-size: 100%;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid dodgerblue;
+            transition: 0.5s;
+            background-size: 100%;
+            
+            
+        }
+        
+        .card1:hover h5{
+            color: transparent;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            margin-top: 70px;
+            -webkit-text-stroke: 0px black;
+        }
+        .card1 h5{
+            color: white;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            margin-top: 70px;
+            -webkit-text-stroke: 1px black;
+        }
+        .card2{
+            height: 100px;
+            width: 100px;
+            padding: 20px 35px;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid dodgerblue;
+            background: url(webdeveloper.jpeg);
+            background-size: 100%;
+        }
+        .card2:hover {
+            height: 100px;
+            width: 100px;
+            padding: 20px 35px;
+            border-radius: 10px;
+            background: url(webdeveloperon.jpeg);
+            background-size: 100%;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid dodgerblue;
+            transition: 0.5s;
+            
+            
+        }
+        .card2 h5{
+            color: white;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            margin-top: 70px;
+            -webkit-text-stroke: 1px black;
+        }
+        .card2:hover h5{
+            color: transparent;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            margin-top:70px;
+            -webkit-text-stroke: 0px black;
+        }
+        .card3{
+            height: 100px;
+            width: 100px;
+            padding: 20px 35px;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid dodgerblue;
+            background: url(teknisijaringan.jpeg);
+            background-size: 100%;
+        }
+        .card3:hover {
+            height: 100px;
+            width: 100px;
+            padding: 20px 35px;
+            border-radius: 10px;
+            background: url(teknisijaringanon.jpeg);
+            background-size: 100%;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+            border: 3px solid dodgerblue;
+            transition: 0.5s;
+            
+            
+        }
+        
+        .card3 h5{
+            color: white;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            margin-top: 70px;
+            -webkit-text-stroke:1px black;
+        }
+        .card3:hover h5{
+            color: transparent;
+            font-size: 20px;
+            margin-bottom: 15px;
+            text-align: center;
+            margin-top: 70px;
+            -webkit-text-stroke: 0px black;
+        }
+        .RiwayatPendidikan {
+            width: auto;
+            
+        
+        }
+        .RiwayatPendidikan h3{
+            color: white;
+            font-size: 30px;
+            text-transform: capitalize;
+            margin-left: 10px;
+            
+            
+        }
+        .RiwayatPendidikan ul li{
+            color: white;
+            letter-spacing: 1px;
+            line-height: 20px;
+            font-size: 15px;
+           margin-bottom: 0px;
+           margin-left: 20px;
+           margin-top: 20px;
+            
+        }
+        footer {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            background-color: #2c2c32;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+        
+        
+        }
+        footer h2{
+            margin-top: 10px;
+            font-size: 20px;
+            color: white;
+            margin-bottom: 10px;
+            font-weight: bold;
+        
+        
+        }
+        footer p{
+            color: #fcfc;
+            font-size: 20px;
+            width: 500px;
+            text-align: center;
+            line-height: 26px;
+        
+        }
+        .sosmed {
+            position: absolute;
+            top: 30%;
+            transition: translateY(-30%);
+            width: 100%;
+            text-align: center;
+        
+        }
+        .tombol {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #f1f1f1;
+            margin: 10px;
+            border-radius: 30%;
+            box-sizing: 0 5px 5px -5px #00000070;
+            overflow: hidden;
+            position: relative;
+            color: dodgerblue;
+            margin-top: 10px;
+        }
+        .tombol i {
+            transition: 0.2s linear;
+            font-size: 15px;
+            line-height: 50px;
+        
+        }
+        .tombol:hover i {
+            transform: scale(1.3);
+            color: #f1f1f1;
+        
+        }
+        .tombol::before{
+            content: "";
+            width: 30px;
+            height: 30px;
+            left: -110%;
+            top: 90%;
+            transform: rotate(45deg);
+            background: transparent;
+            position: absolute;
+        }
+        .tombol:hover::before{
+            
+            left: -10%;
+            top: -10%;
+            animation: aaa 0.7s 1;
+        }
+        
+    
+    
+ }
+
+
+
+
+
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+}
+100%{
+    left: -10%;
+    top: -10%;
+}
+
+}
